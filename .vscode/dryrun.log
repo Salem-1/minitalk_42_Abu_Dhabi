@@ -1,0 +1,48 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/ahsalem/projects/minitalk/resub'
+gcc -Wall -Wextra -Werror   -c -o libft/ft_atoi.o libft/ft_atoi.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_isascii.o libft/ft_isascii.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_memcmp.o libft/ft_memcmp.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_putendl_fd.o libft/ft_putendl_fd.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strdup.o libft/ft_strdup.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strlen.o libft/ft_strlen.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strtrim.o libft/ft_strtrim.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_bzero.o libft/ft_bzero.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_isdigit.o libft/ft_isdigit.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_memcpy.o libft/ft_memcpy.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_putnbr_fd.o libft/ft_putnbr_fd.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_striteri.o libft/ft_striteri.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strmapi.o libft/ft_strmapi.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_substr.o libft/ft_substr.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_calloc.o libft/ft_calloc.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_isprint.o libft/ft_isprint.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_memmove.o libft/ft_memmove.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_putstr_fd.o libft/ft_putstr_fd.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strjoin.o libft/ft_strjoin.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strncmp.o libft/ft_strncmp.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_tolower.o libft/ft_tolower.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_isalnum.o libft/ft_isalnum.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_itoa.o libft/ft_itoa.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_memset.o libft/ft_memset.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_split.o libft/ft_split.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strlcat.o libft/ft_strlcat.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strnstr.o libft/ft_strnstr.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_toupper.o libft/ft_toupper.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_isalpha.o libft/ft_isalpha.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_memchr.o libft/ft_memchr.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_putchar_fd.o libft/ft_putchar_fd.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strchr.o libft/ft_strchr.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strlcpy.o libft/ft_strlcpy.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_strrchr.o libft/ft_strrchr.c
+gcc -Wall -Wextra -Werror   -c -o printf/ft_printf.o printf/ft_printf.c
+gcc -Wall -Wextra -Werror   -c -o printf/param_checker.o printf/param_checker.c
+gcc -Wall -Wextra -Werror   -c -o printf/polymorophic_itoa.o printf/polymorophic_itoa.c
+gcc -Wall -Wextra -Werror   -c -o printf/unsigned.o printf/unsigned.c
+gcc -Wall -Wextra -Werror   -c -o printf/signed.o printf/signed.c
+gcc -Wall -Wextra -Werror   -c -o printf/itoh.o printf/itoh.c
+gcc -Wall -Wextra -Werror   -c -o libft/ft_putstr.o libft/ft_putstr.c
+gcc -Wall -Wextra -Werror   -c -o printf/itop.o printf/itop.c
+gcc -Wall -Wextra -Werror   -c -o server_utils.o server_utils.c
+ar -rcs minitalk.a libft/ft_atoi.o libft/ft_isascii.o libft/ft_memcmp.o libft/ft_putendl_fd.o libft/ft_strdup.o libft/ft_strlen.o libft/ft_strtrim.o libft/ft_bzero.o libft/ft_isdigit.o libft/ft_memcpy.o libft/ft_putnbr_fd.o libft/ft_striteri.o libft/ft_strmapi.o libft/ft_substr.o libft/ft_calloc.o libft/ft_isprint.o libft/ft_memmove.o libft/ft_putstr_fd.o libft/ft_strjoin.o libft/ft_strncmp.o libft/ft_tolower.o libft/ft_isalnum.o libft/ft_itoa.o libft/ft_memset.o libft/ft_split.o libft/ft_strlcat.o libft/ft_strnstr.o libft/ft_toupper.o libft/ft_isalpha.o libft/ft_memchr.o libft/ft_putchar_fd.o libft/ft_strchr.o libft/ft_strlcpy.o libft/ft_strrchr.o printf/ft_printf.o printf/param_checker.o printf/polymorophic_itoa.o printf/unsigned.o printf/signed.o printf/itoh.o libft/ft_putstr.o printf/itop.o server_utils.o
+make: Leaving directory `/Users/ahsalem/projects/minitalk/resub'
+ 
